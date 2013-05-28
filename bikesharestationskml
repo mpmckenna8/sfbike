@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>SF Proposed Bike Share Stations</name>
+  <description><![CDATA[The SFMTA has been planning a bike share launch for San Francisco. The following map is the result of transforming one of their shapefiles to KML so there's not much in the way of attribute values already populated.]]></description>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  <Style id="style2">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+  <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  <Style id="style50">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+  <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+  	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  <Style id="style56">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+	<IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cycling.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style48</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.403236,37.804771,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style52</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.398430,37.799957,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style53</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.394203,37.795391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style17</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.390999,37.791569,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style11</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.388130,37.787163,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style38</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.387962,37.781559,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style2</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.418953,37.774815,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style63</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.404968,37.786304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style9</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.399132,37.791424,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style30</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.412918,37.780357,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style18</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.410217,37.782459,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style25</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.417290,37.776859,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style35</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.408432,37.783871,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style39</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.400810,37.789623,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style44</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.394432,37.794140,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style28</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.397079,37.792370,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style6</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.401398,37.801449,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style22</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.400734,37.798634,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style42</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.398438,37.797279,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style27</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.396652,37.796387,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style33</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.399971,37.795002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style50</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.402840,37.794289,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style34</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.405136,37.788589,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style14</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.405098,37.796917,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style49</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.400513,37.796906,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style57</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.407158,37.798508,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style19</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.415855,37.778824,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style51</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.404091,37.796280,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style1</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.401581,37.791958,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style41</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.404503,37.791786,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style3</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.418716,37.781429,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style40</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.415138,37.780819,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style8</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.418144,37.778820,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style60</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.408501,37.788445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style37</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.404770,37.795425,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style47</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.402435,37.800446,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style23</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.400185,37.793240,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style62</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.401878,37.795715,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style4</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.403450,37.788975,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style29</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.397575,37.794491,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style16</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.392868,37.775169,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style32</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.409302,37.778156,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style21</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.393631,37.790611,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style26</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.411430,37.779110,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style31</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.405128,37.781754,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style7</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.400017,37.781227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style12</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.407341,37.782448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style61</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.402718,37.771057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style13</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.394508,37.777576,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style43</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.396233,37.785297,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style55</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.390266,37.789623,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style15</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.401016,37.784878,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style59</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.396286,37.788425,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style45</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.402306,37.780994,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style54</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.392738,37.782261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style58</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.398109,37.786980,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style56</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.399300,37.787743,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style36</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.392494,37.788635,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style5</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.390564,37.768837,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style46</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.394913,37.791565,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style20</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.394600,37.776360,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style10</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.395569,37.776318,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bike Share Station</name>
+    <styleUrl>#style24</styleUrl>
+    <ExtendedData>
+    </ExtendedData>
+    <Point>
+      <coordinates>-122.390289,37.780525,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
