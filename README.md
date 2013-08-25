@@ -9,7 +9,3 @@ the Bay Area Bike Share soon. I have made a request through Socrata that the MTA
 but they're more into publishing meaningless maps.
 
 See: https://data.sfgov.org/nominate for my nomination of bikeshare data.
-
-To do:
-Make map of YellowBike Bike share data
-
