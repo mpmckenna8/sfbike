@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bike Data</title>
+		<script type="text/javascript" src="../d3/d3.js"></script>
+		<script type="text/javascript" src="./takeOffBABS.js"></script>
+		<style type="text/css">
+		.bars {
+			fill:#00FFFF;
+		}
+		.rwc{
+			fill:green;
+		}
+		.pab{
+			fill:yellow;
+		}
+		.sj{
+			fill:#B22222;
+
+		}
+		.mtv{
+			fill:purple;
+		}
+
+.labmtv{
+	font: 7px sans-serif;
+	text-shadow: 2px 2px 2px purple;
+}
+.labsf{
+	font: 7px sans-serif;
+	background:orange;
+	text-shadow: 2px 2px 2px #00FFFF;
+}
+.labsj{
+	font: 7px sans-serif;
+	text-shadow: 2px 2px 2px #B22222;
+}
+
+.labpab{
+	font: 7px sans-serif;
+	text-shadow: 2px 2px 2px yellow;
+}
+.labrwc{
+	font: 7px sans-serif;
+	text-shadow: 2px 2px 2px green;
+}
+             .bars:hover {
+                 fill: brown;
+								 font: 10px sans-serif;
+								color:black
+             }
+
+             .axis {
+                 font: 9px sans-serif;
+             }
+
+             .axis path,
+             .axis line {
+                 fill: none;
+                 stroke: #000;
+                 shape-rendering: crispEdges;
+             }
+
+             .x.axis path {
+                 stroke:black;
+             }
+
+			/* No style rules here yet */
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			//Width and height
+		var margin = {top: 20, right: 20, bottom: 30, left: 85};
+            var w = 1100- margin.left - margin.right,
+            barheight= 20;
+            var h= 500 - margin.top - margin.bottom,
+            barPadding = 16;
+
+
+
+		        var x = d3.scale.ordinal()
+        .range([0, w+20])
+        .domain(50);
+
+				        var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom")
+        ;
+
+
+        var y = d3.scale.linear()
+        .domain([0,1500])
+        .range([ h,0]);
+
+        var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .ticks(10);
+
+    var axisp= h;
+
+       var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w + margin.left + margin.right)
+        .attr("height", h + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+        svg.selectAll("rect")
+        .data(leave)
+        .enter()
+        .append("rect")
+        .attr("x", function(d, i) {
+              return i * (w / leave.length) + 15;
+
+              })
+              .attr("y", function(d) {
+			   		return h - (d.numTrips / 25);
+                    })
+                    .attr("width", w / leave.length - barPadding)
+                    .attr("height", function(d) {
+											//console.log(d)
+                          return d.numTrips / 25;
+                          })
+				.attr("class",function(d){
+						if(d.city === "Redwood City"){
+							return "rwc"
+						}
+						else if(d.city ==="Palo Alto"){return "pab"}
+						else if(d.city ==="San Jose"){return "sj"}
+						else if(d.city ==="Mountain View"){return "mtv"}
+						else{return "bars"}
+				})
+
+				svg.selectAll("text")
+				.data(leave).enter().append("text")
+				.attr("x", function(d, i) {
+							return i * (w / leave.length) +35;
+
+							} )
+    		.attr("y", function(d,i){
+					if(i%2===0){
+						return h+20;
+					}
+					else{return h+10}
+				})
+			//	.attr("transform", "rotate(-45)")
+				.attr("class", function(d){
+					if(d.city === "Redwood City"){
+						return "labrwc"
+					}
+					else if(d.city ==="Palo Alto"){return "labpab"}
+					else if(d.city ==="San Jose"){return "labsj"}
+					else if(d.city ==="Mountain View"){return "labmtv"}
+					else{return "labsf"}
+				})
+       .text(function(d,i){
+					return (d._id)
+				})
+				.style("text-anchor","middle")
+
+
+
+      svg.append("g")
+          .attr("class", "x axis")
+          .call(xAxis)
+           .attr("transform", "translate(0," + axisp + ")")
+
+           .append("text")
+           .style("text-anchor","middle")
+           .text("Bike Share Stations")
+           .attr("y", 30)
+           .attr("x",axisp)
+
+           ;
+
+				svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 10)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Trips Total");
+
+
+		</script>
+	</body>
+</html>
