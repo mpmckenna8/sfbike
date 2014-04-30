@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Bike Data</title>
-		<script type="text/javascript" src="../d3/d3.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 		<script type="text/javascript" src="./takeOffBABS.js"></script>
 		<style type="text/css">
 		.bars {
@@ -92,7 +92,7 @@
 
 
         var y = d3.scale.linear()
-        .domain([0,1500])
+        .domain([0,10000])
         .range([ h,0]);
 
         var yAxis = d3.svg.axis()
@@ -187,6 +187,8 @@
             .attr("dy", ".71em")
             .style("text-anchor", "end")
             .text("Trips Total");
+
+
 
 
 		</script>
