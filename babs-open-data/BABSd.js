@@ -10,7 +10,7 @@ var reddi = []
               );
             var when = obj.executionTime;
             console.log(when);
-            console.log(stories);
+            console.log(typeof stories);
 return stories
         }
     });
