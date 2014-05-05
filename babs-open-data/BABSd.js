@@ -9,7 +9,10 @@ var reddi = []
             var stories = obj.stationBeanList.map(function (station) { return station;}
               );
             var when = obj.executionTime;
-            console.log(when);
+
+            var shord = when.slice(-10, -3);
+            console.log(Date.now());
+            console.log(shord);
             console.log(typeof stories);
 return stories
         }

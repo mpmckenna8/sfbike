@@ -1,4 +1,3 @@
-//var MongoClient = require('mongodb').MongoClient
 var request = require('request');
 var fs = require('fs')
 
@@ -11,7 +10,7 @@ var stats = [];
 var senda = JSON.stringify(stats);
 
           //   console.log(when);
-          fs.writeFile('babsDataNow.json', senda, function(err){
+fs.writeFile('babsD' + Date.now() +'.json', senda, function(err){
              if(err) throw err;
              console.log("i done think I saved a file of babs data...")
            });
@@ -19,7 +18,6 @@ var senda = JSON.stringify(stats);
         }
     });
 
-//var writetoNew = fs.writeFile('babsData' +when,)
 
   //  console.log(babs);
 //babs.pipe(process.stdout)
