@@ -1,0 +1,1195 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 2,
+        "name": "San Jose Diridon Caltrain Station",
+        "dockcount": 27,
+        "landmark": "San Jose",
+        "installation": "8/6/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.901782,
+          37.329732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 3,
+        "name": "San Jose Civic Center",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/5/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.888979,
+          37.330698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 4,
+        "name": "Santa Clara at Almaden",
+        "dockcount": 11,
+        "landmark": "San Jose",
+        "installation": "8/6/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894902,
+          37.333988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 5,
+        "name": "Adobe on Almaden",
+        "dockcount": 19,
+        "landmark": "San Jose",
+        "installation": "8/5/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8932,
+          37.331415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 6,
+        "name": "San Pedro Square",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/7/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894074,
+          37.336721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 7,
+        "name": "Paseo de San Antonio",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/7/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.886943,
+          37.333798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 8,
+        "name": "San Salvador at 1st",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/5/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.885831,
+          37.330165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 9,
+        "name": "Japantown",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/5/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.894715,
+          37.348742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 10,
+        "name": "San Jose City Hall",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/6/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.886995,
+          37.337391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 11,
+        "name": "MLK Library",
+        "dockcount": 19,
+        "landmark": "San Jose",
+        "installation": "8/6/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.88566,
+          37.335885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 12,
+        "name": "SJSU 4th at San Carlos",
+        "dockcount": 19,
+        "landmark": "San Jose",
+        "installation": "8/7/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.883891,
+          37.332808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 13,
+        "name": "St James Park",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/6/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.889937,
+          37.339301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 14,
+        "name": "Arena Green / SAP Center",
+        "dockcount": 19,
+        "landmark": "San Jose",
+        "installation": "8/5/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.900084,
+          37.332692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 16,
+        "name": "SJSU - San Salvador at 9th",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "8/7/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.877349,
+          37.333955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 21,
+        "name": "Franklin at Maple",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "8/12/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.226904,
+          37.481758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 22,
+        "name": "Redwood City Caltrain Station",
+        "dockcount": 25,
+        "landmark": "Redwood City",
+        "installation": "8/15/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.232089,
+          37.486078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 23,
+        "name": "San Mateo County Center",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "8/15/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.231061,
+          37.488501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 24,
+        "name": "Redwood City Public Library",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "8/12/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.227424,
+          37.484219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 25,
+        "name": "Broadway at Main",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "8/12/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.225551,
+          37.486725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 26,
+        "name": "Redwood City Medical Center",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "8/12/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.223492,
+          37.487682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 27,
+        "name": "Mountain View City Hall",
+        "dockcount": 15,
+        "landmark": "Mountain View",
+        "installation": "8/16/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.081896,
+          37.389218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 28,
+        "name": "Mountain View Caltrain Station",
+        "dockcount": 23,
+        "landmark": "Mountain View",
+        "installation": "8/15/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.076713,
+          37.394358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 29,
+        "name": "San Antonio Caltrain Station",
+        "dockcount": 23,
+        "landmark": "Mountain View",
+        "installation": "8/15/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.106758,
+          37.40694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 30,
+        "name": "Evelyn Park and Ride",
+        "dockcount": 15,
+        "landmark": "Mountain View",
+        "installation": "8/16/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.066553,
+          37.390277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 31,
+        "name": "San Antonio Shopping Center",
+        "dockcount": 15,
+        "landmark": "Mountain View",
+        "installation": "12/31/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.108338,
+          37.400443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 32,
+        "name": "Castro Street and El Camino Real",
+        "dockcount": 11,
+        "landmark": "Mountain View",
+        "installation": "12/31/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.083678,
+          37.385956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 33,
+        "name": "Rengstorff Avenue / California Street",
+        "dockcount": 15,
+        "landmark": "Mountain View",
+        "installation": "8/16/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.099076,
+          37.400241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 34,
+        "name": "Palo Alto Caltrain Station",
+        "dockcount": 23,
+        "landmark": "Palo Alto",
+        "installation": "8/14/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.164759,
+          37.443988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 35,
+        "name": "University and Emerson",
+        "dockcount": 11,
+        "landmark": "Palo Alto",
+        "installation": "8/15/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.163093,
+          37.444521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 36,
+        "name": "California Ave Caltrain Station",
+        "dockcount": 15,
+        "landmark": "Palo Alto",
+        "installation": "8/14/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.142805,
+          37.429082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 37,
+        "name": "Cowper at University",
+        "dockcount": 11,
+        "landmark": "Palo Alto",
+        "installation": "8/14/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.159504,
+          37.448598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 38,
+        "name": "Park at Olive",
+        "dockcount": 15,
+        "landmark": "Palo Alto",
+        "installation": "8/14/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.137778,
+          37.425684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 41,
+        "name": "Clay at Battery",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39997,
+          37.795001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 42,
+        "name": "Davis at Jackson",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.398436,
+          37.79728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 45,
+        "name": "Commercial at Montgomery",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402923,
+          37.794231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 46,
+        "name": "Washington at Kearney",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404767,
+          37.795425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 47,
+        "name": "Post at Kearney",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.403452,
+          37.788975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 48,
+        "name": "Embarcadero at Vallejo",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/19/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.398525,
+          37.799953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 49,
+        "name": "Spear at Folsom",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390264,
+          37.789625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 50,
+        "name": "Harry Bridges Plaza (Ferry Building)",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394203,
+          37.795392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 51,
+        "name": "Embarcadero at Folsom",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391034,
+          37.791464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 53,
+        "name": "Powell Street BART",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/25/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408433,
+          37.783871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 54,
+        "name": "Embarcadero at Bryant",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.388013,
+          37.787152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 55,
+        "name": "Temporary Transbay Terminal (Howard at Beale)",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394643,
+          37.789756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 56,
+        "name": "Beale at Market",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/20/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.397086,
+          37.792251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 57,
+        "name": "5th at Howard",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/21/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405127,
+          37.781752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 58,
+        "name": "San Francisco City Hall",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/21/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418235,
+          37.77865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 59,
+        "name": "Golden Gate at Polk",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/21/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418603,
+          37.781332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 60,
+        "name": "Embarcadero at Sansome",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/21/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.403234,
+          37.80477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 61,
+        "name": "2nd at Townsend",
+        "dockcount": 27,
+        "landmark": "San Francisco",
+        "installation": "8/22/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.390288,
+          37.780526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 62,
+        "name": "2nd at Folsom",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/22/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.396236,
+          37.785299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 63,
+        "name": "Howard at 2nd",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/22/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.398108,
+          37.786978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 64,
+        "name": "2nd at South Park",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/22/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.392738,
+          37.782259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 65,
+        "name": "Townsend at 7th",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/22/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402717,
+          37.771058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 66,
+        "name": "South Van Ness at Market",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.418954,
+          37.774814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 67,
+        "name": "Market at 10th",
+        "dockcount": 27,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.417385,
+          37.776619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 68,
+        "name": "Yerba Buena Center of the Arts (3rd @ Howard)",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.401014,
+          37.784878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 69,
+        "name": "San Francisco Caltrain 2 (330 Townsend)",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39607,
+          37.776377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 70,
+        "name": "San Francisco Caltrain (Townsend at 4th)",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.395569,
+          37.776317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 71,
+        "name": "Powell at Post (Union Square)",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408499,
+          37.788446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 72,
+        "name": "Civic Center BART (7th at Market)",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/23/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.412919,
+          37.780356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 73,
+        "name": "Grant Avenue at Columbus Avenue",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "8/21/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407245,
+          37.798522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 74,
+        "name": "Steuart at Market",
+        "dockcount": 23,
+        "landmark": "San Francisco",
+        "installation": "8/25/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.394434,
+          37.794139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 75,
+        "name": "Mechanics Plaza (Market at Battery)",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/25/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399051,
+          37.7913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 76,
+        "name": "Market at 4th",
+        "dockcount": 19,
+        "landmark": "San Francisco",
+        "installation": "8/25/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404966,
+          37.786305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 77,
+        "name": "Market at Sansome",
+        "dockcount": 27,
+        "landmark": "San Francisco",
+        "installation": "8/25/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400811,
+          37.789625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 80,
+        "name": "San Jose Government Center",
+        "dockcount": 15,
+        "landmark": "San Jose",
+        "installation": "12/31/2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.905733,
+          37.352601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 82,
+        "name": "Broadway St at Battery St",
+        "dockcount": 15,
+        "landmark": "San Francisco",
+        "installation": "1/22/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.400862,
+          37.798541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 83,
+        "name": "Mezes Park",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "2/20/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.236234,
+          37.491269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": 84,
+        "name": "rrrrra ra",
+        "dockcount": 15,
+        "landmark": "Redwood City",
+        "installation": "2/20/2014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.895617,
+          37.342725
+        ]
+      }
+    }
+  ]
+}
