@@ -30,9 +30,11 @@ var begin = L.geoJson(start,{
 }),
 end = L.geoJson(end);
 
+var both = [end,begin];
+
 var overMaps = {
   "Starting":begin,
-  "Recent":end
+  "Recent":end,
 }
 
 var mytile = L.tileLayer('https://{s}.tiles.mapbox.com/v3/mpmckenna8.i60p2il1/{z}/{x}/{y}.png', {
@@ -41,14 +43,11 @@ var mytile = L.tileLayer('https://{s}.tiles.mapbox.com/v3/mpmckenna8.i60p2il1/{z
 
 var map = L.map('map', {
   center:[37.7899, -122.4168],
-  zoom:14,
+  zoom:13,
   layers:[mytile,end,begin]
 })
 
-L.control.layers(overMaps).addTo(map);
-
-
-
+L.control.layers("",overMaps).addTo(map);
 
 
 </script>
