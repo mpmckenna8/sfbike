@@ -23,7 +23,10 @@ mapboxgl.util.getJSON('outdoors-v4.json', function(err,style){
 style.layers.push({
   "id":"bikeSF",
   "source":"bikeSF",
+  "interactive":true,
   "render":{
+    "type":"line",
+    "line-join":"round"
   },
   "style":{
     "line-color":"green",
@@ -32,6 +35,66 @@ style.layers.push({
       "stops":[[9,3],[14,5]]
     },
     "line-opacity":0.3
+  },
+  "type":"line"
+},
+{
+  "id":"bikeWant",
+  "source":"bikeSF",
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "filter":{
+    "facility_t":"proposed"
+  },
+  "style":{
+    "line-color":"purple",
+    "line-width":{
+      "base":0.7,
+      "stops":[[9,3],[14,5]]
+    },
+    "line-opacity":0.3
+  },
+  "type":"line"
+},
+{
+  "id":"biken",
+  "source":"bikeSF",
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "filter":{
+    "facility_t":"NEW MISSION BAY"
+  },
+  "style":{
+    "line-color":"purple",
+    "line-width":{
+      "base":0.7,
+      "stops":[[9,3],[14,5]]
+    },
+    "line-opacity":0.9
+  },
+  "type":"line"
+},
+{
+  "id":"bikeShar",
+  "source":"bikeSF",
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "filter":{
+    "sharrow":1
+  },
+  "style":{
+    "line-color":"red",
+    "line-width":{
+      "base":0.7,
+      "stops":[[9,3],[14,5]]
+    },
+    "line-opacity":0.9
   },
   "type":"line"
 } );
