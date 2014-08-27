@@ -7,7 +7,7 @@ Recently I've been trying to look at how to use mapbox-gl with their javascript 
 
 Lots to try to do with the OpenStreetMap data and SFMTA bike route data. https://data.sfgov.org/Transportation/SFMTA-Bicycle-Route-Network/q36i-k43q
 
-It would be nice if it were possible to just draw the sfmta data. But there's proposed bike lanes and some bike lanes are sharrows, some are bike buffers, some are painted green.  It'd like to take a little survey of bike maps and what people would want to see on one and try and make a cool one to which other people could easily improve.
+It would be nice if it were possible to just draw the sfmta data. But there's proposed bike lanes and some bike lanes are sharrows, some are bike buffers, some are painted green.  I'd like to take a little survey of bike maps and what people would want to see on one and try and make a cool one to which other people could easily improve.
 
 Go ride a bike in SF or help me out with this stuff cause I don't much know what I'm doing.
 
