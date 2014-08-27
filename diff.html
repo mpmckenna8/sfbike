@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+
+  //console.log(bikeD);
+
+mapboxgl.util.getJSON('outdoors-v4.json', function(err,style){
+
+style.layers.push({
+  "id":"bikeSF",
+  "source":"bikeSF",
+  "interactive":true,
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "style":{
+    "line-color":"yellow",
+    "line-width":{
+      "base":7,
+      "stops":[[9,1],[14,3]]
+    },
+    "line-opacity":0.7
+  },
+  "type":"line"
+},
+{
+  "id":"bikeWant",
+  "source":"bikeSF",
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "filter":{
+    "Surface_Tr":"SHARROW"
+  },
+  "style":{
+    "line-color":"#FF0080",
+    "line-width":{
+"base":7,
+"stops":[[9,1],[14,3]]
+    },
+    "line-opacity":0.5
+  },
+  "type":"line"
+},
+{
+  "id":"biken",
+  "source":"bikeSF",
+  "render":{
+    "type":"line",
+    "line-join":"round"
+  },
+  "filter":{
+    "Surface_Tr":"GREEN PAINT"
+  },
+  "style":{
+    "line-color":"#00FF89",
+    "line-width":{
+    "base":7,
+    "stops":[[9,1],[14,3]]
+    },
+    "line-opacity":0.7
+  },
+  "type":"line"
+}
+ );
+
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoibXBtY2tlbm5hOCIsImEiOiJfYWx3RlJZIn0.v-vrWv_t1ytntvWpeePhgQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: style,
+  center: [37.763, -122.494],
+  zoom: 10,
+  // causes pan & zoom handlers not to be applied, similar to
+  // .dragging.disable() and other handler .disable() funtions in Leaflet.
+  interactive: true,
+  hash:true,
+
+})
+
+var file = 'data/bikewaySFMTA.geojson'
+
+mapboxgl.util.getJSON(file, function(err,bikeD){
+
+
+map.on('click', function(e){
+  console.log(e)
+})
+
+var geojson = bikeD;
+var sfBike = new mapboxgl.GeoJSONSource({data: geojson });
+
+map.addSource('bikeSF',sfBike);
+
+console.log(map.sources);
+
+console.log(style)
+
+map.style.addClass('night');
+})
+
+})
+
+function lanesStyle(err, style){
+
+}
+</script>
+
+</body>
+</html>
