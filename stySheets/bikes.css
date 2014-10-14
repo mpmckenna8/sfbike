@@ -1,0 +1,49 @@
+body { margin:0; padding:0; }
+
+
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
+.legend{
+  position:absolute;
+  margin-top:10px;
+  margin-bottom:10;
+  margin-left:10px;
+  width:85px;
+  color:grey;
+  border:black;
+  background-color:#FBF8EF;
+  z-index:2;
+  padding:5px;
+  font-size:9px;
+
+}
+
+
+
+.boxer {
+  width:15px;
+  height:1px;
+  //background-color:purple;
+  border: .2px dashed purple;
+  float:right;
+  margin-right:12px;
+  margin-top:4px;
+  position:relative;
+}
+
+#sharecare{
+  background-color: #FF0080;
+
+}
+
+#some{
+  background-color: yellow;
+
+
+}
+
+#paint{
+  background-color: #00FF89;
+
+
+}

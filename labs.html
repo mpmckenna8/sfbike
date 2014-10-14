@@ -6,13 +6,18 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.2.2/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+        <link type="text/css" rel="stylesheet" href="./stySheets/bikes.css"/>
+
+
 </head>
 <body>
+<div class="legend">
 
+  <span>Sharrows <div class="boxer" id= "sharecare"></div></span><br>
+  <span>Bike route <div class="boxer" id= "some"></div></span><br>
+  <span>Green lane <div class="boxer" id= "paint"></div></span>
+
+</div>
 <div id='map'></div>
 <script>
 
@@ -28,11 +33,11 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: style,
   center: [37.763, -122.494],
-  zoom: 10,
+  zoom: 11,
   // causes pan & zoom handlers not to be applied, similar to
   // .dragging.disable() and other handler .disable() funtions in Leaflet.
   interactive: true,
-  hash:true,
+  hash:true
 
 })
 
@@ -53,6 +58,9 @@ map.addSource('bikeSF',sfBike);
 console.log(map.sources);
 
 console.log(style)
+
+map.addControl(new mapboxgl.Navigation());
+
 
 map.style.addClass('night');
 })
