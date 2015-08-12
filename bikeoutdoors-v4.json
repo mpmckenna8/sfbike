@@ -9,19 +9,19 @@
     "@crop": "#eeeed4",
     "@grass": "#e6e6cc",
     "@scrub": "#dfe5c8",
-    "@wood": "#cee2bd",
+    "@wood": "#e8f2e0",
     "@snow": "#f4f8ff",
     "@rock": "#ddd",
     "@sand": "#ffd",
     "@cemetery": "#edf4ed",
     "@pitch": "#fff",
-    "@park": "#d4e4bc",
+    "@park": "#e8f2e0",
     "@piste": "blue",
     "@school": "#e8dfe0",
     "@hospital": "#f8eee0",
     "@builtup": "#f6faff",
     "@case": "#fff",
-    "@motorway": "#cda0a0",
+    "@motorway": "#f9f3f5",
     "@main": "#ddc0b9",
     "@street": "#fff",
     "@text": "#666",
@@ -2185,86 +2185,15 @@
       "text-halo-color": "@water_night"
     },
     "type": "symbol"
-  }, {
-    "id": "poi_label_1-2",
+  },
+  {
+    "id": "pois",
     "source": "mapbox",
     "source-layer": "poi_label",
-    "filter": { "scalerank": [1, 2], "$type": "Point" },
+    "filter": {  "$type": "Point" },
     "render": {
       "icon-image": "{maki}-12",
-      "text-field": "{name_en}",
-      "text-padding": 2,
-      "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
-      "text-max-size": 12,
-      "text-max-width": 10,
-      "text-offset": [0, 0.6],
-      "text-vertical-align": "top"
-    },
-    "style": {
-      "text-color": "#444",
-      "text-size": "@poi_label_1-2_size",
-      "text-halo-color": "@land",
-      "text-halo-width": {
-        "stops": [[14, 1.5], [15, 1.65], [16, 1.8]]
-      }
-    },
-    "style.night": {
-      "text-color": "#fff",
-      "text-size": "@poi_label_1-2_size",
-      "text-halo-color": "@text2_stroke_night",
-      "text-halo-width": {
-        "stops": [[14, 1.5], [15, 1.65], [16, 1.8]]
-      }
-    },
-    "type": "symbol"
-  }, {
-    "id": "poi_label_3",
-    "source": "mapbox",
-    "source-layer": "poi_label",
-    "filter": { "scalerank": 3, "$type": "Point" },
-    "render": {
-      "icon-image": "{maki}-12",
-      "text-field": "{name_en}",
-      "text-padding": 2,
-      "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
-      "text-max-size": 11,
-      "text-max-width": 10,
-      "text-offset": [0, 0.6],
-      "text-vertical-align": "top"
-    },
-    "style": {
-      "icon-opacity": {
-        "stops": [[15.5, 0], [15.75, 1]]
-      },
-      "text-color": "#444",
-      "text-size": "@poi_label_3_size",
-      "text-halo-color": "@land",
-      "text-halo-width": {
-        "stops": [[15, 1.5], [16, 1.65]]
-      },
-      "text-opacity": {
-        "stops": [[15.5, 0], [15.75, 1]]
-      }
-    },
-    "style.night": {
-      "text-color": "#fff",
-      "text-size": "@poi_label_3_size",
-      "text-halo-color": "@text2_stroke_night",
-      "text-halo-width": {
-        "stops": [[15, 1.5], [16, 1.65]]
-      },
-      "text-opacity": {
-        "stops": [[15.5, 0], [15.75, 1]]
-      }
-    },
-    "type": "symbol"
-  }, {
-    "id": "poi_label_4",
-    "source": "mapbox",
-    "source-layer": "poi_label",
-    "filter": { "scalerank": 4, "$type": "Point" },
-    "render": {
-      "icon-image": "{maki}-12",
+      "icon-optional":true,
       "text-field": "{name_en}",
       "text-padding": 2,
       "text-font": "Open Sans Semibold, Arial Unicode MS Bold",
@@ -2275,24 +2204,25 @@
     },
     "style": {
       "icon-opacity": {
-        "stops": [[17.5, 0], [17.75, 1]]
+        "stops": [[17.5, 1], [17.75, 1]]
       },
       "text-color": "#444",
-      "text-size": 10,
+      "text-size": 6,
       "text-opacity": {
-        "stops": [[17.5, 0], [17.75, 1]]
+        "stops": [[17.5, 1], [17.75, 1]]
       },
       "text-halo-color": "@land",
       "text-halo-width": 1.5
     },
     "style.night": {
-      "text-color": "#fff",
+      "text-color": "orange",
       "text-size": 10,
       "text-opacity": {
-        "stops": [[17.5, 0], [17.75, 1]]
+        "stops": [[17.5, 0.75], [17.75, 1]]
       },
       "text-halo-color": "@text2_stroke_night",
-      "text-halo-width": 1.5
+      "text-halo-width": 1.5,
+      "fill-color":"green"
     },
     "type": "symbol"
   }]

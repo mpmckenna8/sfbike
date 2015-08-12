@@ -6,15 +6,15 @@ body { margin:0; padding:0; }
 .legend{
   position:absolute;
   margin-top:10px;
-  margin-bottom:10;
+  margin-bottom:10px;
   margin-left:10px;
-  width:85px;
+  width:145px;
   color:grey;
   border:black;
   background-color:#FBF8EF;
   z-index:2;
   padding:5px;
-  font-size:9px;
+  font-size:19px;
 
 }
 
@@ -22,7 +22,7 @@ body { margin:0; padding:0; }
 
 .boxer {
   width:15px;
-  height:1px;
+  height:10px;
   //background-color:purple;
   border: .2px dashed purple;
   float:right;
