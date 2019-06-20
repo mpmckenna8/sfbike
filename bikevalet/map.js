@@ -20,7 +20,7 @@ let icon_url = "https://mpmckenna8.github.io/leaflettuts/SFbikeValet-mapicon.png
 
 map.loadImage(icon_url, function(error, valet_image) {
 
-  let geojson_url = "./bikevalet/valet_locations.geojson";
+  let geojson_url = "./valet_locations.geojson";
 
 fetch(geojson_url)
   .then((response) => {
