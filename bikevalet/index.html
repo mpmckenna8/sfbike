@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>SF Bike Valet Map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+<script src='/js/sidebar.js'></script>
+
+<style>
+body { margin:0; padding:0; }
+
+#heading {
+  top: 15px;
+  left: 20px;
+  margin: 0px 50px 0px 50px;
+  position: relative;
+  height: 80px;
+  background-color: #cfc;
+  border-color: #696;
+  opacity: 0.7;
+}
+
+.event {
+  cursor: pointer;
+
+}
+
+.selected {
+  background-color: blue;
+
+}
+
+#events_list {
+  top: 35px;
+  left: 20px;
+  margin: 0px 50px 0px 50px;
+  position: relative;
+  height: 80%;
+  width: 30%;
+  background-color: #cfc;
+  border-color: #696;
+  opacity: 0.7;
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+.popupdiv {
+  width: 275px;
+}
+
+</style>
+</head>
+<body>
+
+  <div>
+  <div id='map'>
+  </div>
+
+
+  <div id="events_list">
+    <h1>SF Bicycle Valet Map</h1>
+
+    <h4>
+      Valet Events:
+    </h4>
+    <div id="events_div">
+    </div>
+  </div>
+  </div>
+
+<script src="./map.js">
+</script>
+
+</body>
+</html>

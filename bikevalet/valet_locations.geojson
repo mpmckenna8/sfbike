@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "bike_valet": "6/19 Asian Art Museum",
+        "capacity": 80,
+        "description": "Bike valet  is located next to the entrance, provided for Thursday nights at the Asian Art Museum <a href='http://www.asianart.org/regular/thursday-nights'>http://www.asianart.org/regular/thursday-nights.</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41660952568054,
+          37.78006847307154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "id": 1,
+        "bike_valet": "Giants",
+        "capacity": 200,
+        "description": "Bicycle parking should be operating 2 hours before first pitch until a half hour after last pitch every home game."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38888205578881,
+          37.77802265154584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "bike_valet": "Presidio Picnic",
+        "capacity": 80,
+        "description": "Located in the parking lot next to the Visitor Center. Open for the duration of the event. 11 am - 4 pm."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45684266090392,
+          37.80196837187395
+        ]
+      }
+    }
+
+  ]
+}
