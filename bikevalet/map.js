@@ -16,7 +16,7 @@ map.on('load', function() {
 map.loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png', function(error, image) {
 if (error) throw error;
 
-let icon_url = "http://mpmckenna8.github.io/leaflettuts/SFbikeValet-mapicon.png"
+let icon_url = "https://mpmckenna8.github.io/leaflettuts/SFbikeValet-mapicon.png"
 
 map.loadImage(icon_url, function(error, valet_image) {
 
@@ -46,6 +46,9 @@ fetch(geojson_url)
     setUpSidebar(valet_geojson.features, map)
 
 
+  })
+  .catch(err => {
+    console.log('there was an error getting valet locations', err)
   })
 
 
